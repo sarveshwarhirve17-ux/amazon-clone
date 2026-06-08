@@ -35,6 +35,12 @@
     color: red;
 }
 
+.logo:hover{
+    transform: scale(1.03);
+    transition: 0.3sec;
+}
+
+
 .cart{
     font-weight: bold;
 }
@@ -72,6 +78,11 @@
     padding-top: 0px;
 }
 
+.hero h1:hover{
+    transform: scale(1.03);
+    transition: 0.3sec;
+}
+
 .product{
     height: 200px;
     display: flex;
@@ -83,6 +94,11 @@
 .product h2{
     color: blue;
     font-size: 45px;
+}
+
+.product h2:hover{
+    transform: scale(1.03);
+    transition: 0.3sec;
 }
 
 .boxex{
@@ -138,12 +154,41 @@
     margin-top: 20px;
 }
 
-.box:hover{
+.box img:hover{
     transform: scale(1.03);
     transition: 0.3sec;
 }
 
-.box2:hover{
+.box2 img:hover{
     transform: scale(1.03);
     transition: 0.3sec;
 }
+
+.foot{
+    /* align-items: center; */
+    /* justify-content: space-around; */
+    text-align: center;
+    color: darkgreen;
+}
+
+.foot:hover{
+    transform: scale(1.03);
+    transition: 0.3sec;
+}
+
+.contact{
+    background-color: black;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    padding:  10px;
+}
+
+.contact a{
+    margin: 3px 0;
+    color: white;
+    text-decoration: none ;
+}
+
