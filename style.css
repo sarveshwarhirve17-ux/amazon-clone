@@ -122,3 +122,28 @@
     font-size: 25px;
     color: darkorchid;
 }
+
+.box2 img{
+    width: 115%;
+    height: 216px;
+    border: 2px  solid black;
+    padding: 10px;
+}
+
+.footer{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.box:hover{
+    transform: scale(1.03);
+    transition: 0.3sec;
+}
+
+.box2:hover{
+    transform: scale(1.03);
+    transition: 0.3sec;
+}
