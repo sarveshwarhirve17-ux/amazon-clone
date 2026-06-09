@@ -176,19 +176,24 @@
     transition: 0.3sec;
 }
 
-.contact{
+.contact-container{
     background-color: black;
-    
     display: flex;
-    align-items: center;
     justify-content: space-around;
+    padding: 20px;
+}
 
-    padding:  10px;
+.contact{
+    display: flex;
+    flex-direction: column;
 }
 
 .contact a{
-    margin: 3px 0;
     color: white;
-    text-decoration: none ;
+    text-decoration: none;
+    margin: 15px 0;
 }
 
+h3{
+    color: white;
+}
