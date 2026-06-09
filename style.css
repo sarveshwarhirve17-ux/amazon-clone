@@ -25,8 +25,14 @@
 
 .search button{
     padding: 8px;
-    background-color: orange;
+    background-color: darkorange;
     
+}
+
+.search button:hover{
+     transform: scale(1.03);
+    transition: 0.3sec;
+    background-color: hotpink;
 }
 
 .logo{
@@ -58,6 +64,13 @@
 .menu a{
     color: white;
     text-decoration: none ;
+}
+
+.menu a:hover{
+     transform: scale(1.03);
+    transition: 0.3sec;
+    color: blue;
+
 }
 
 .hero{
@@ -103,6 +116,7 @@
 
 .boxex{
     display: flex;
+    flex-wrap:wrap;
     align-items: center;
     justify-content: space-around;
     /* background-color: chartreuse; */
@@ -110,10 +124,10 @@
 
 .box {
     height: 250px;
-    width: 350px;
+    width: 280px;
     background-color: white;
     font-size: 25px;
-    color: darkorchid;
+    color: rgb(153, 15, 222);
 }
 
 .box img{
@@ -125,26 +139,10 @@
     /* object-fit: cover; */
 }
 
-.boxex2{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+.box h3:hover{
+    color: darkgreen;
 }
 
-.box2{
-    height: 250px;
-    width: 350px;
-    background-color: white;
-    font-size: 25px;
-    color: darkorchid;
-}
-
-.box2 img{
-    width: 115%;
-    height: 216px;
-    border: 2px  solid black;
-    padding: 10px;
-}
 
 .footer{
     background-color: blue;
@@ -154,15 +152,14 @@
     margin-top: 20px;
 }
 
+
 .box img:hover{
     transform: scale(1.03);
     transition: 0.3sec;
 }
 
-.box2 img:hover{
-    transform: scale(1.03);
-    transition: 0.3sec;
-}
+
+
 
 .foot{
     /* align-items: center; */
@@ -178,6 +175,7 @@
 
 .contact-container{
     background-color: black;
+    flex-wrap: wrap;
     display: flex;
     justify-content: space-around;
     padding: 20px;
@@ -194,6 +192,19 @@
     margin: 15px 0;
 }
 
-h3{
+.contact h3:hover{
+    transform: scale(1.03);
+    transition: 0.3sec;
+    color: orange;
+}
+
+.contact a:hover{
+    transform: scale(1.03);
+    transition: 0.3sec;
+    color: orange;
+}
+
+.contact h3{
     color: white;
 }
+
